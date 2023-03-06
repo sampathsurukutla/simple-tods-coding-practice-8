@@ -1,0 +1,24 @@
+.list-item-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.button {
+  color: #ff0b37;
+  background-color: transparent;
+  border-width: 1px;
+  border-color: #ff0b37;
+  border-radius: 6px;
+  height: 30px;
+  width: 70px;
+}
+
+@media (min-width: 768px) {
+  .list-item-container {
+    align-items: center;
+    padding: 10px;
+    width: 90%;
+  }
+}
